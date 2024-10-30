@@ -5,6 +5,7 @@ class F
 #include "aiBehaviour\functions.hpp"
 #include "aiCache\functions.hpp"
 #include "aiDriver\functions.hpp"
+#include "ambiance\functions.hpp"
 #include "briefing\functions.hpp"
 #include "ceasefire\functions.hpp"
 #include "downtime\functions.hpp"

@@ -1,4 +1,5 @@
 #include "aiCache\zen_modules.sqf"
+#include "ambiance\zen_modules.sqf"
 #include "ceasefire\zen_modules.sqf"
 #include "gearScript\zen_modules.sqf"
 #include "logiVehicle\zen_modules.sqf"
