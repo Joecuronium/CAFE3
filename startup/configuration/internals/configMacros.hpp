@@ -17,4 +17,4 @@
 #include "..\..\..\configuration\sogConfig.hpp"
 #include "..\..\..\configuration\respawn.hpp"
 #include "..\..\..\configuration\slottingGenerator.hpp"
-#include "..\..\..\configuration\ambiance.hpp"
+#include "..\..\..\configuration\ambianceScripts.hpp"
