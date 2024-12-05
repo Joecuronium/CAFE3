@@ -98,6 +98,11 @@ _createGravestone =
     [_grave, _corpse] call f_fnc_fillGraveAndDeleteCorpse;
     [_grave, _corpseName, _deathTime, _obituary] call f_fnc_sendGravestoneToClients;
 
+    _grave  addEventHandler ["ContainerOpened", {
+	    params ["_container", "_unit"];
+        _container setOwner (clientOwner _unit);
+    }];
+
 
 #else
 
